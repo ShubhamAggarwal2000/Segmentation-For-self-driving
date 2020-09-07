@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 
 import torch
 import torch.nn.functional as F
-from origin.utils.decorators import timeit
-from origin.utils.utils import quantize_mask, Denormalize
+from MML.utils.decorators import timeit
+from MML.utils.utils import quantize_mask, Denormalize
 
 
 def visualize_dataset(dataset, index=None, alpha=0.1, transform=None, colorbar=False):
